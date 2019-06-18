@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="masuperagence@localhost" uuid="287b3060-b655-4a60-afa5-fd28aa788e0b">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="User Data Source" uuid="74911be0-302b-475d-be83-42903f519942">
+      <driver-ref>0ba7fcdc-67d1-4e47-a8c5-e7f4d789353c</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/masuperagence</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
     </data-source>
-    <data-source source="LOCAL" name="louvre@localhost" uuid="198caa8d-a10d-4e60-ad3f-44606258635f">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="Ma super agence" uuid="434cb061-3f92-406b-8ed9-812338d1d986">
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/louvre</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
