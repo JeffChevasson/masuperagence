@@ -1,24 +1,18 @@
 <?php
 
-
 namespace App\Controller;
 
-use App\Entity\Property;
 use App\Repository\PropertyRepository;
-use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Annotation\Route;
 
-/**
- * Class HomeController
- * @package App\Controller
- */
-class HomeController extends  AbstractController
+class HomeController extends AbstractController
 {
     /**
+     * @Route("/", name="home")
      * @param PropertyRepository $repository
      * @return Response
-     * @Route("/", name="home")
      */
     public function index(PropertyRepository $repository): Response
     {
@@ -27,4 +21,5 @@ class HomeController extends  AbstractController
             'properties' => $properties
         ]);
     }
+
 }
